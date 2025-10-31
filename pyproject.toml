@@ -1,0 +1,18 @@
+[project]
+name = "fitness-club-accounting-system"
+version = "0.1.0"
+description = "An application for fitness club clients and trainers. It allows users to select a trainer, choose a subscription, view profiles, check attendance schedules, etc."
+authors = [
+    {name = "y"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "flet (>=0.27.1,<0.28.0)",
+    "pyodbc (>=5.2.0,<6.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
