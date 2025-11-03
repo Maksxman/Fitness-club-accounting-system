@@ -1,0 +1,1 @@
+alter table person.users add  password_hash varbinary(255) not null, password_salt varbinary(255) not null;
